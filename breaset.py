@@ -39,8 +39,8 @@ def introduction():
     col1, col2 = st.columns([2, 3])
 
     with col1:
-        st.image("img/pms.jfif", caption='breast_cancer', width=200)
-        st.image("img/ps3.jfif", caption='breast_cancer', width=200)
+        st.image("pms.jfif", caption='breast_cancer', width=200)
+        st.image("ps3.jfif", caption='breast_cancer', width=200)
 
     with col2:
         st.write("""
@@ -58,7 +58,7 @@ def introduction():
     """)
 
     st.header("Objectives of Data Exploration")
-    st.image("img/ex1.webp", caption="", use_column_width=True)
+    st.image("ex1.webp", caption="", use_column_width=True)
     st.write("""
     Exploratory data analysis (EDA) is a very important step which takes place after feature engineering and acquiring data and it should be done before any modeling. This is because it is very important for a data scientist to be able to understand the nature of the data without making assumptions. The results of data exploration can be extremely useful in grasping the structure of the data, the distribution of the values, and the presence of extreme values and interrelationships within the data set.
     
@@ -66,7 +66,7 @@ def introduction():
     """)
 
     st.header("Unimodal Data Visualizations")
-    st.image("img/un1.webp", caption="", use_column_width=True)
+    st.image("un1.webp", caption="", use_column_width=True)
     st.write("""
     One of the main goals of visualizing the data here is to observe which features are most helpful in predicting malignant or benign cancer. The other is to see general trends that may aid us in model selection and hyperparameter selection. Apply 3 techniques that you can use to understand each attribute of your dataset independently:
     
@@ -76,7 +76,7 @@ def introduction():
     """)
 
     st.header("Pre-Processing the Data")
-    st.image("img/pr1.png", caption="", use_column_width=True)
+    st.image("pr1.png", caption="", use_column_width=True)
     st.write("""
     Data preprocessing is a crucial step for any data analysis problem. It is often a very good idea to prepare your data in such way to best expose the structure of the problem to the machine learning algorithms that you intend to use. This involves a number of activities such as:
     
@@ -88,7 +88,7 @@ def introduction():
     """)
 
     st.header("Predictive Model using Support Vector Machine (SVM)")
-    st.image("img/svm1.ppm", caption="", use_column_width=True)
+    st.image("svm1.ppm", caption="", use_column_width=True)
     st.write("""
     Support vector machines (SVMs) learning algorithm will be used to build the predictive model. SVMs are one of the most popular classification algorithms, and have an elegant way of transforming nonlinear data so that one can use a linear algorithm to fit a linear model to the data (Cortes and Vapnik 1995).
     

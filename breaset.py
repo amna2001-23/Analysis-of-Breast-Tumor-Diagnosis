@@ -88,7 +88,7 @@ def introduction():
     """)
 
     st.header("Predictive Model using Support Vector Machine (SVM)")
-    st.image("svm1.ppm", caption="", use_column_width=True)
+    st.image("svm.jfif", caption="", use_column_width=True)
     st.write("""
     Support vector machines (SVMs) learning algorithm will be used to build the predictive model. SVMs are one of the most popular classification algorithms, and have an elegant way of transforming nonlinear data so that one can use a linear algorithm to fit a linear model to the data (Cortes and Vapnik 1995).
     
